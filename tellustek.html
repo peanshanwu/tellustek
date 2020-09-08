@@ -1,0 +1,991 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/all.css">
+    <title>蓋婭模擬試題-吳品萱</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="container-fluid">
+        <!-- 背景 -->
+        <div class="row bg-dark-1">
+            <div class="col-12">
+                <!-- 內容 -->
+                <main class="container">
+                    <nav class="navbar navbar-expand-md navbar-dark px-0">
+                        <h1>
+                            <a class="navbar-brand text-primary font-weight-light" href="tellustek.html">FOOSESHOES</a>
+                        </h1>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <form class="form-inline my-2 my-lg-0 d-md-none">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item d-none d-md-block">
+                                    <a class="ml-auto mr-4" href="#">
+                                        <i class="fas fa-search header--search"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="header--loginRegister">LOGIN or REGISTER</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </main>
+            </div>
+        </div>
+    </header>
+
+    <!--Navbar 導覽列 -->
+    <div class="container-fluid bg-white">
+        <!-- 背景 -->
+        <div class="row">
+            <div class="col-12">
+                <!-- 內容 -->
+                <main class="container">
+                    <nav class="navbar navbar-light navbar-expand p-0" id="myNavbar">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"
+                            aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <!-- <a href="#" class="navbar-brand">Navbar Brand</a> -->
+                        <div class="collapse navbar-collapse justify-content-between flex-column flex-lg-row"
+                            id="mainNav">
+                            <ul class="navbar-nav nav-fill flex-column flex-lg-row">
+                                <li class="nav-item navbar--item__border px-4">
+                                    <a href="#" class="nav-link">Home<span class="sr-only">(current)</span></a>
+                                </li>
+
+                                <li class="nav-item navbar--item__border px-4 dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product</a>
+                                    <div class="dropdown-menu navbar--dropdownMenu__adjustPosition"
+                                        aria-labelledby="servicesDropdown">
+                                        <a class="dropdown-item" href="#">What we do</a>
+                                        <a class="dropdown-item" href="#">How we fit your needs</a>
+                                        <div class="dropdown-divider"></div>
+                                        <div class="d-lg-flex align-items-start justify-content-start">
+                                            <div>
+                                                <div class="dropdown-header">Development</div>
+                                                <a class="dropdown-item" href="#">Bespoke software</a>
+                                                <a class="dropdown-item" href="#">Mobile apps</a>
+                                                <a class="dropdown-item" href="#">Websites</a>
+                                            </div>
+                                            <div>
+                                                <div class="dropdown-header">Professional Services</div>
+                                                <a class="dropdown-item" href="#">Project rescue</a>
+                                                <a class="dropdown-item" href="#">Source code recovery</a>
+                                                <a class="dropdown-item" href="#">Application support &amp;
+                                                    maintenance</a>
+                                            </div>
+                                            <div>
+                                                <div class="dropdown-header">Fixed Price Services</div>
+                                                <a class="dropdown-item" href="#">Add cookie consent</a>
+                                                <a class="dropdown-item" href="#">Add captcha</a>
+                                                <a class="dropdown-item" href="#">Add core data</a>
+                                                <a class="dropdown-item" href="#">Custom error pages</a>
+                                                <a class="dropdown-item" href="#">Contact form creation</a>
+                                                <a class="dropdown-item" href="#">Automated backups</a>
+                                                <a class="dropdown-item" href="#">Image to HTML</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item navbar--item__border px-4">
+                                    <a href="#" class="nav-link">About</a>
+                                </li>
+                                <li class="nav-item navbar--item__border px-4">
+                                    <a href="#" class="nav-link">Pages</a>
+                                </li>
+                                <li class="nav-item navbar--item__border px-4">
+                                    <a href="#" class="nav-link">Blog</a>
+                                </li>
+                                <li class="nav-item navbar--item__border px-4">
+                                    <a href="#" class="nav-link">Contact</a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav nav-fill">
+                                <li class="nav-item navbar--item__border py-2 px-4">
+                                    <a href="#">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <i class="far fa-star text-gray mr-2"></i>
+                                            <div class="navbar--star__icon">
+                                                <p class="mb-0">30</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-item navbar--item__border py-2 px-4">
+                                    <a href="#">
+                                        <div class=" d-flex justify-content-between align-items-center">
+                                            <i class="fas fa-shopping-cart text-gray mr-2"></i>
+                                            <div class="navbar--star__icon">
+                                                <p class="mb-0">0</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </nav>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <!-- slide show 輪播 -->
+    <section class="container-fluid sliderShow--bgcolor__linear">
+        <!-- 背景 -->
+        <div class="row">
+            <div class="col-12">
+                <!-- 內容 -->
+                <main class="container mt-5 mb-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <!-- slide 1 -->
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <!-- 圖片 -->
+                                            <div class="col-md-6 col-sm-12 mb-5">
+                                                <img src="img/carousel.png" class="d-block" alt="...">
+                                            </div>
+                                            <!-- 文字段落 -->
+                                            <div class="col-md-6 col-sm-12">
+                                                <ul class="list-unstyled">
+                                                    <!-- price cube -->
+                                                    <li>
+                                                        <div class="slideShow--priceCube bg-primary">
+                                                            <div class="d-flex justify-content-center">
+                                                                <p class="text-center text-white">$145,99</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <!-- title -->
+                                                    <li>
+                                                        <h2 class="slideShow--title__font">Pink Shoes<br>2013 Collection
+                                                        </h2>
+                                                    </li>
+                                                    <!-- paragraph -->
+                                                    <li>
+                                                        <p>Nunc non fermentum nunc. Sed ut ante
+                                                            eget leo tempor consequat sit amet eu orci.
+                                                            Donec dignissim dolor eget..</p>
+                                                    </li>
+                                                    <!-- icon -->
+                                                    <li>
+                                                        <ul class="slideShow--icon list-unstyled"
+                                                            id="bestSellers--icon__1">
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="far fa-eye"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="far fa-star"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fas fa-share-square"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fas fa-cart-arrow-down"></i>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- slide 2 -->
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <!-- 圖片 -->
+                                            <div class="col-md-6 col-sm-12 mb-5">
+                                                <img src="img/carousel.png" class="d-block" alt="...">
+                                            </div>
+                                            <!-- 文字段落 -->
+                                            <div class="col-md-6 col-sm-12">
+                                                <ul class="list-unstyled">
+                                                    <!-- price cube -->
+                                                    <li>
+                                                        <div class="slideShow--priceCube bg-primary">
+                                                            <div class="d-flex justify-content-center">
+                                                                <p class="text-center text-white">$145,99</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <!-- title -->
+                                                    <li>
+                                                        <h2 class="slideShow--title__font">Anna Field<br>2013 Collection
+                                                        </h2>
+                                                    </li>
+                                                    <!-- paragraph -->
+                                                    <li>
+                                                        <p>Nunc non fermentum nunc. Sed ut ante
+                                                            eget leo tempor consequat sit amet eu orci.
+                                                            Donec dignissim dolor eget..</p>
+                                                    </li>
+                                                    <!-- icon -->
+                                                    <li>
+                                                        <ul class="slideShow--icon list-unstyled"
+                                                            id="bestSellers--icon__1">
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="far fa-eye"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="far fa-star"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fas fa-share-square"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fas fa-cart-arrow-down"></i>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- slide 3 -->
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <!-- 圖片 -->
+                                            <div class="col-md-6 col-sm-12 mb-5">
+                                                <img src="img/carousel.png" class="d-block" alt="...">
+                                            </div>
+                                            <!-- 文字段落 -->
+                                            <div class="col-md-6 col-sm-12">
+                                                <ul class="list-unstyled">
+                                                    <!-- price cube -->
+                                                    <li>
+                                                        <div class="slideShow--priceCube bg-primary">
+                                                            <div class="d-flex justify-content-center">
+                                                                <p class="text-center text-white">$145,99</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <!-- title -->
+                                                    <li>
+                                                        <h2 class="slideShow--title__font">Prada<br>2013 Collection
+                                                        </h2>
+                                                    </li>
+                                                    <!-- paragraph -->
+                                                    <li>
+                                                        <p>Nunc non fermentum nunc. Sed ut ante
+                                                            eget leo tempor consequat sit amet eu orci.
+                                                            Donec dignissim dolor eget..</p>
+                                                    </li>
+                                                    <!-- icon -->
+                                                    <li>
+                                                        <ul class="slideShow--icon list-unstyled"
+                                                            id="bestSellers--icon__1">
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="far fa-eye"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="far fa-star"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fas fa-share-square"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fas fa-cart-arrow-down"></i>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- slide 4 -->
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <!-- 圖片 -->
+                                            <div class="col-md-6 col-sm-12 mb-5">
+                                                <img src="img/carousel.png" class="d-block" alt="...">
+                                            </div>
+                                            <!-- 文字段落 -->
+                                            <div class="col-md-6 col-sm-12">
+                                                <ul class="list-unstyled">
+                                                    <!-- price cube -->
+                                                    <li>
+                                                        <div class="slideShow--priceCube bg-primary">
+                                                            <div class="d-flex justify-content-center">
+                                                                <p class="text-center text-white">$145,99</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <!-- title -->
+                                                    <li>
+                                                        <h2 class="slideShow--title__font">Casadei<br>2013 Collection
+                                                        </h2>
+                                                    </li>
+                                                    <!-- paragraph -->
+                                                    <li>
+                                                        <p>Nunc non fermentum nunc. Sed ut ante
+                                                            eget leo tempor consequat sit amet eu orci.
+                                                            Donec dignissim dolor eget..</p>
+                                                    </li>
+                                                    <!-- icon -->
+                                                    <li>
+                                                        <ul class="slideShow--icon list-unstyled"
+                                                            id="bestSellers--icon__1">
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="far fa-eye"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="far fa-star"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fas fa-share-square"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fas fa-cart-arrow-down"></i>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- slide 5 -->
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <!-- 圖片 -->
+                                            <div class="col-md-6 col-sm-12 mb-5">
+                                                <img src="img/carousel.png" class="d-block" alt="...">
+                                            </div>
+                                            <!-- 文字段落 -->
+                                            <div class="col-md-6 col-sm-12">
+                                                <ul class="list-unstyled">
+                                                    <!-- price cube -->
+                                                    <li>
+                                                        <div class="slideShow--priceCube bg-primary">
+                                                            <div class="d-flex justify-content-center">
+                                                                <p class="text-center text-white">$145,99</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <!-- title -->
+                                                    <li>
+                                                        <h2 class="slideShow--title__font">Mellow Yellow<br>2013
+                                                            Collection
+                                                        </h2>
+                                                    </li>
+                                                    <!-- paragraph -->
+                                                    <li>
+                                                        <p>Nunc non fermentum nunc. Sed ut ante
+                                                            eget leo tempor consequat sit amet eu orci.
+                                                            Donec dignissim dolor eget..</p>
+                                                    </li>
+                                                    <!-- icon -->
+                                                    <li>
+                                                        <ul class="slideShow--icon list-unstyled"
+                                                            id="bestSellers--icon__1">
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="far fa-eye"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="far fa-star"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fas fa-share-square"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fas fa-cart-arrow-down"></i>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+    <!-- indicate 顯示欄 -->
+    <section class="container-fluid bg-dark-2 d-none d-md-block">
+        <!-- 背景 -->
+        <div class="row">
+            <div class="col-12">
+                <!-- 內容 -->
+                <main class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <nav class="nav nav-fill">
+                                <a class="nav-link active p-0 position-relative">
+                                    <div
+                                        class="text-center indicate--title__font indicate--title__border indicate--title__borderActive">
+                                        <p class="mb-0">Pink Shoes</p>
+                                        <small>Now of $145,99</small>
+                                    </div>
+                                </a>
+                                <a class="nav-link p-0 position-relative">
+                                    <div class="text-center indicate--title__font indicate--title__border">
+                                        <p class="mb-0">Anna Field</p>
+                                        <small>Limited Edition</small>
+                                    </div>
+                                </a>
+                                <a class="nav-link p-0 position-relative">
+                                    <div class="text-center indicate--title__font indicate--title__border">
+                                        <p class="mb-0">Prada</p>
+                                        <small>Summer is coming</small>
+                                    </div>
+                                </a>
+                                <a class="nav-link p-0 position-relative">
+                                    <div class="text-center indicate--title__font indicate--title__border">
+                                        <p class="mb-0">Casadei</p>
+                                        <small>All Colors avaiable</small>
+                                    </div>
+                                </a>
+                                <a class="nav-link p-0 position-relative">
+                                    <div class="text-center indicate--title__font indicate--title__border">
+                                        <p class="mb-0">Mellow Yellow</p>
+                                        <small>Free delivery</small>
+                                    </div>
+                                </a>
+                            </nav>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 主打商品 flagship product -->
+    <section class="container-fluid">
+        <!-- 背景 -->
+        <div class="row bg-dark-1">
+            <div class="col-12">
+                <!-- 內容 -->
+                <main class="container">
+                    <ul class="row pl-0 mb-0 flagshipProduct--space">
+                        <li class="col-sm-4 d-flex align-items-center justify-content-center">
+                            <a href="https://www.tellustek.com/" target="_blank" rel="noopener noreferrer">
+                                <div class="flagship--cube__onSale">
+                                    <img src="img/recommend.jpg" alt="flagship product-1">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col-sm-4 d-flex align-items-center justify-content-center">
+                            <a href="https://www.tellustek.com/" target="_blank" rel="noopener noreferrer">
+                                <div class="flagship--cube__specialOffers">
+                                    <img src="img/recommend.jpg" alt="flagship product-2">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col-sm-4 d-flex align-items-center justify-content-center">
+                            <a href="https://www.tellustek.com/" target="_blank" rel="noopener noreferrer">
+                                <div class="flagship--cube__mustHave">
+                                    <img src="img/recommend.jpg" alt="flagship product-3">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </main>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- 最佳銷售 best sellers -->
+    <section class="container-fluid">
+        <!-- 背景 -->
+        <div class="row bg-cream">
+            <div class="col-12">
+                <!-- 內容 -->
+                <main class="container border-bottom border-gray">
+                    <div class="row mt-4 mb-3">
+                        <div class="col-12">
+                            <ul class="list-unstyled bestSellers--container__flex">
+                                <li>
+                                    <p class="m-0 text-dark-1 bestSellers--title__font">Best sellers of the month</p>
+                                </li>
+                                <li>
+                                    <a class="border border-secondary text-secondary px-4 py-2 bestSellers--showAllBtn__font"
+                                        href="#">Show All
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- best sellers card list -->
+                    <ul class="bestSellers row list-unstyled mb-5">
+                        <!-- best sellers card-1 -->
+                        <li class="col-sm-4">
+                            <div class="position-relative">
+                                <div class="bestSellers--line">
+                                    <img src="img/bestsellers.jpg" alt="bestsellers-1">
+                                </div>
+                                <!-- product name -->
+                                <div class="bestSellers--productName bg-white" id="bestSellers--productName__1">
+                                    <p class="mb-0 text-dark-2">Product Name</p>
+                                </div>
+                                <!-- icon -->
+                                <div class="bestSellers--icon bg-white" id="bestSellers--icon__1">
+                                    <a href="#">
+                                        <i class="far fa-eye"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="far fa-star"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-share-square"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-cart-arrow-down"></i>
+                                    </a>
+                                </div>
+                                <!-- price cube -->
+                                <div class="bestSellers--priceCube bg-primary">
+                                    <div class="d-flex justify-content-center">
+                                        <p class="text-center text-white">$145,99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- best sellers card-2 -->
+                        <li class="col-sm-4">
+                            <div class="position-relative">
+                                <div class="bestSellers--line">
+                                    <img src="img/bestsellers.jpg" alt="bestsellers-2">
+                                </div>
+                                <!-- product name -->
+                                <div class="bestSellers--productName bg-white" id="bestSellers--productName__2">
+                                    <p class="mb-0 text-dark-2">Product Name</p>
+                                </div>
+                                <!-- icon -->
+                                <div class="bestSellers--icon bg-white" id="bestSellers--icon__2">
+                                    <a href="#">
+                                        <i class="far fa-eye"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="far fa-star"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-share-square"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-cart-arrow-down"></i>
+                                    </a>
+                                </div>
+                                <!-- price cube -->
+                                <div class="bestSellers--priceCube bg-primary">
+                                    <div class="d-flex justify-content-center">
+                                        <p class="text-center text-white">$145,99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- best sellers card-3 -->
+                        <li class="col-sm-4">
+                            <div class="position-relative">
+                                <div class="bestSellers--line">
+                                    <img src="img/bestsellers.jpg" alt="bestsellers-3">
+                                </div>
+                                <!-- product name -->
+                                <div class="bestSellers--productName bg-white" id="bestSellers--productName__3">
+                                    <p class="mb-0 text-dark-2">Product Name</p>
+                                </div>
+                                <!-- icon -->
+                                <div class="bestSellers--icon bg-white" id="bestSellers--icon__3">
+                                    <a href="#">
+                                        <i class="far fa-eye"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="far fa-star"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-share-square"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-cart-arrow-down"></i>
+                                    </a>
+                                </div>
+                                <!-- price cube -->
+                                <div class="bestSellers--priceCube bg-primary">
+                                    <div class="d-flex justify-content-center">
+                                        <p class="text-center text-white">$145,99</p>
+                                    </div>
+                                </div>
+                                <!-- out fo stuck cube -->
+                                <div class="bestSellers--outOfStuckCube">
+                                    <div class="d-flex justify-content-center">
+                                        <p class="text-center text-white text-uppercase">out of stuck</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <!-- 文章 blog -->
+    <section class="container-fluid">
+        <!-- 背景 -->
+        <div class="row bg-cream">
+            <div class="col-12">
+                <!-- 內容 -->
+                <main class="container mt-4">
+                    <ul class="row list-unstyled blog">
+
+                        <!-- 左邊區塊 -->
+                        <!-- 1 -->
+                        <li class="col-lg-3 col-md-12">
+                            <div class="blog--Cube__container">
+                                <div class="blog--bgCube">
+                                    <ul class="blog--freeShip list-unstyled">
+                                        <li class="mb-lg-4">
+                                            <p class="text-uppercase">1. Free Shipping</p>
+                                            <p>Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh.
+                                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                                                inceptos himenaeos. Donec erat sem, </p>
+                                        </li>
+                                        <li>
+                                            <p class="text-uppercase">Free Shipping</p>
+                                            <p>Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh.
+                                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                                                inceptos himenaeos. Donec erat sem, </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="blog--bgCube__back"></div>
+                            </div>
+                        </li>
+
+                        <!-- 右邊區塊 -->
+                        <li class="col-lg-9 col-md-12">
+                            <ul class="list-unstyled">
+                                <!-- 右邊區塊row-1，平板版（md以上，含md）出現，等於手機版這個區塊會消失 -->
+                                <li class="d-none d-md-block">
+                                    <ul class="row list-unstyled blog--rightRow1__container">
+                                        <!-- 2 for lg -->
+                                        <li class="col-md-4 d-none d-lg-block">
+                                            <div class="blog--Cube__container">
+                                                <div class="blog--bgCube">
+                                                    <p>2. Testimonials</p>
+                                                    <p>vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora
+                                                        torquent per conubia nostra, per inceptos himenaeos. Donec erat
+                                                        sem, vehicula id dictum sit [...]
+                                                        <br><small>- John Doe -</small>
+                                                    </p>
+                                                </div>
+                                                <div class="blog--bgCube__back"></div>
+                                            </div>
+                                        </li>
+                                        <!-- 3 for lg -->
+                                        <li class="col-md-8">
+                                            <div class="blog--Cube__container">
+                                                <div class="blog--bgCube">
+                                                    <p class="text-uppercase">3. Blog News</p>
+                                                    <ul class="row list-unstyled mb-4">
+                                                        <li class="col-md-2">
+                                                            <div class="blog--dateCube">
+                                                                <p class="text-center text-white font-weight-bold mb-0">
+                                                                    APR<br>01</p>
+                                                            </div>
+                                                        </li>
+                                                        <li
+                                                            class="col-md-10 d-flex justify-content-center align-items-center">
+                                                            <p class="mb-0">Nice & clean. The
+                                                                best for you blog!
+                                                                Vivamus metus turpis, bibendum vitae euismod vel,
+                                                                vulputate vel</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="row list-unstyled">
+                                                        <li class="col-md-2">
+                                                            <div class="blog--dateCube">
+                                                                <p class="text-center text-white font-weight-bold mb-0">
+                                                                    APR<br>01</p>
+                                                            </div>
+                                                        </li>
+                                                        <li
+                                                            class="col-md-10 d-flex justify-content-center align-items-center">
+                                                            <p class="mb-0"><strong>What an Ecommerce
+                                                                    theme</strong><br>Vulputate vel
+                                                                nibh. Class aptent taciti sociosqu ad litora</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="blog--bgCube__back"></div>
+                                            </div>
+                                        </li>
+                                        <!-- 5 for md -->
+                                        <li class="col-md-4 d-none d-md-block d-lg-none">
+                                            <div class="blog--Cube__container">
+                                                <div class="blog--bgCube">
+                                                    <p>5. Testimonials</p>
+                                                    <p>vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora
+                                                        torquent per conubia nostra, per inceptos himenaeos. Donec erat
+                                                        sem, vehicula id dictum sit [...]
+                                                        <br><small>- John Doe -</small>
+                                                    </p>
+                                                </div>
+                                                <div class="blog--bgCube__back"></div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- 右邊區塊row-2 -->
+                                <li>
+                                    <ul class="row list-unstyled blog--rightRow2__container">
+                                        <!-- 2 for md以下（含md） -->
+                                        <li class="col-md-4 d-lg-none blog--order1__sm">
+                                            <div class="blog--Cube__container">
+                                                <div class="blog--bgCube">
+                                                    <p>2. Testimonials</p>
+                                                    <p>vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora
+                                                        torquent per conubia nostra, per inceptos himenaeos. Donec erat
+                                                        sem, vehicula id dictum sit [...]
+                                                        <br><small>- John Doe -</small>
+                                                    </p>
+                                                </div>
+                                                <div class="blog--bgCube__back"></div>
+                                            </div>
+                                        </li>
+                                        <!-- 4 -->
+                                        <li class="col-md-8 blog--order3__sm">
+                                            <div class="blog--Cube__container">
+                                                <div class="blog--bgCube">
+                                                    <p class="text-uppercase">4. Blog News</p>
+                                                    <ul class="row list-unstyled mb-4">
+                                                        <li class="col-md-2">
+                                                            <div class="blog--dateCube">
+                                                                <p class="text-center text-white font-weight-bold mb-0">
+                                                                    APR<br>01</p>
+                                                            </div>
+                                                        </li>
+                                                        <li
+                                                            class="col-md-10 d-flex justify-content-center align-items-center">
+                                                            <p class="mb-0">Nice & clean. The
+                                                                best for you blog!
+                                                                Vivamus metus turpis, bibendum vitae euismod vel,
+                                                                vulputate vel</p>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="row list-unstyled">
+                                                        <li class="col-md-2">
+                                                            <div class="blog--dateCube">
+                                                                <p class="text-center text-white font-weight-bold mb-0">
+                                                                    APR<br>01</p>
+                                                            </div>
+                                                        </li>
+                                                        <li
+                                                            class="col-md-10 d-flex justify-content-center align-items-center">
+                                                            <p class="mb-0"><strong>What an Ecommerce
+                                                                    theme</strong><br>Vulputate vel
+                                                                nibh. Class aptent taciti sociosqu ad litora</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="blog--bgCube__back"></div>
+                                            </div>
+                                        </li>
+                                        <!-- 5 -->
+                                        <li class="col-md-4 d-md-none d-lg-block blog--order2__sm">
+                                            <div class="blog--Cube__container">
+                                                <div class="blog--bgCube">
+                                                    <p>5. Testimonials</p>
+                                                    <p>vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora
+                                                        torquent per conubia nostra, per inceptos himenaeos. Donec erat
+                                                        sem, vehicula id dictum sit [...]
+                                                        <br><small>- John Doe -</small>
+                                                    </p>
+                                                </div>
+                                                <div class="blog--bgCube__back"></div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!-- 右邊區塊row-3，md以上（含md）消失，等於手機版會出現這區塊 -->
+                                <li class="d-md-none">
+                                    <div class="blog--Cube__container">
+                                        <div class="blog--bgCube">
+                                            <p class="text-uppercase">3. Blog News</p>
+                                            <ul class="row list-unstyled mb-4">
+                                                <li class="col-md-2">
+                                                    <div class="blog--dateCube">
+                                                        <p class="text-center text-white font-weight-bold mb-0">
+                                                            APR<br>01</p>
+                                                    </div>
+                                                </li>
+                                                <li class="col-md-10 d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0">Nice & clean. The
+                                                        best for you blog!
+                                                        Vivamus metus turpis, bibendum vitae euismod vel,
+                                                        vulputate vel</p>
+                                                </li>
+                                            </ul>
+                                            <ul class="row list-unstyled">
+                                                <li class="col-md-2">
+                                                    <div class="blog--dateCube">
+                                                        <p class="text-center text-white font-weight-bold mb-0">
+                                                            APR<br>01</p>
+                                                    </div>
+                                                </li>
+                                                <li class="col-md-10 d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0"><strong>What an Ecommerce
+                                                            theme</strong><br>Vulputate vel
+                                                        nibh. Class aptent taciti sociosqu ad litora</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="blog--bgCube__back"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="container-fluid">
+        <!-- 背景 -->
+        <div class="row bg-dark-2">
+            <div class="col-12">
+                <!-- 內容 -->
+                <main class="container">
+                    <ul class="row justify-content-between align-items-center list-unstyled footer">
+                        <li class="col-md-4">
+                            <p>
+                                Copyright © Fooseshoes 2013.<br>
+                                Designed by EnzoLiVolti.
+                            </p>
+                        </li>
+                        <li class="col-md-8 text-lg-right footer--link">
+                            <p>
+                                <a href="tellustek.html">
+                                    Home
+                                </a>
+                                <span>/</span>
+                                <a href="https://www.tellustek.com/" target="_blank" rel="noopener noreferrer">
+                                    Support
+                                </a>
+                                <span>/</span>
+                                <a href="https://www.tellustek.com/" target="_blank" rel="noopener noreferrer">
+                                    Terms and Conditions
+                                </a>
+                                <span>/</span>
+                                <a href="https://www.tellustek.com/" target="_blank" rel="noopener noreferrer">
+                                    Faqs
+                                </a>
+                                <span>/</span>
+                                <a href="mailto:service@tellustek.com">
+                                    Contact us
+                                </a>
+                                <span>/</span>
+                            </p>
+                        </li>
+                    </ul>
+
+                </main>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="js/all.js"></script>
+</body>
+
+</html>
